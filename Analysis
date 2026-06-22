@@ -1,0 +1,4 @@
+The Heart Disease dataset was analyzed to predict whether a patient is likely to have heart disease based on medical attributes such as age, cholesterol level, resting blood pressure, maximum heart rate, chest pain type, and other clinical measurements.
+Data exploration showed that the dataset contains 303 records and 14 attributes. No missing values were found, which simplified the preprocessing stage. Since all features were numerical, no categorical encoding was required. Feature scaling was performed using StandardScaler to improve model performance.
+A Logistic Regression classifier was trained using 80% of the data and tested on the remaining 20%.
+The accusrcy of the model is 85.25% 
